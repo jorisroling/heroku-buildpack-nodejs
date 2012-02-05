@@ -30,8 +30,11 @@ run_npm() {
 unset GIT_DIR
 
 # config
-NODE_VERSION="0.4.7"
-NPM_VERSION="1.0.94"
+# JJR http://heroku-buildpack-nodejs.s3.amazonaws.com/manifest.npm
+NODE_VERSION="0.6.8"
+# JJR http://heroku-buildpack-nodejs.s3.amazonaws.com/manifest.nodejs
+NPM_VERSION="1.0.106"
+
 SCONS_VERSION="1.2.0"
 S3_BUCKET="heroku-buildpack-nodejs"
 
